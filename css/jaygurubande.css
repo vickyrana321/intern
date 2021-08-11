@@ -1,0 +1,265 @@
+body
+{
+	font-family:monospace ;
+ 
+}
+h1,h2,h3,h4,h5,h6,ul,li,p
+{
+    margin:0px;
+    padding:0px;
+}
+.container li{
+    text-align: center;
+}
+.cap{
+  
+   padding: 20px;
+   margin: 20px;
+}
+.cap p{
+    font-size: 25px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cap ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+ }
+
+.top-nav ul li:hover{
+    background-color: white;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #333;
+  outline: 1px solid #000;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li { margin:0px; padding:0px; }
+.container-fluid { padding: 0px;}
+
+
+
+.bg-dark
+{
+    background-color: transparent;
+}
+
+.slider
+{
+	position:relative;
+	z-index:1;
+   
+}
+.carousel-inner{
+    size: 200px;
+}
+
+.bg
+{
+	position:absolute;
+	color: rgb(455, 455,23);
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:2;
+}
+.k{
+    size: 10px;
+}
+.mynav
+{
+    
+	position:absolute;
+	z-index:2;
+	top:35px;
+}
+
+.navbar
+{
+    padding:15px;
+}
+
+
+.navbar-nav .nav-item a
+{
+	color:white;
+    font-weight: 1000;
+	font-size:17px;
+
+	text-transform:uppercase;
+    
+}
+.navbar-nav .nav-item a:hover{
+    background-color:white; 
+    color: black;
+}
+
+.navbar-nav .dropdown .dropdown-menu, .navbar-nav .dropdown .dropdown-menu a
+{
+    margin:0px;
+    padding:0px;
+    color:#000;
+}
+
+.navbar-nav .dropdown .dropdown-menu a
+{
+    padding:5px 10px;
+	font-size:13px;
+    border-bottom:1px solid #f2f2f2;
+}
+
+.top_nav
+{
+    width:100%;
+	position:absolute;
+	top:10px;
+    height:40px;
+    line-height:40px;
+    color:#fff;
+    font-size:14px;
+	z-index:2;
+}
+
+.mybt
+{
+    margin-left:20px;
+    font-size:12px;
+    height:40px;
+    font-size:15px;
+    width:120px;
+    text-align:center;
+    display:block;
+    line-height:40px;
+    background:#f2a500;
+    color:#000;
+	border-radius:5px;
+    transition:all ease-in-out 0.1s;
+}
+
+.mybt a
+{
+    color:#000;
+    transition:all ease-in-out 0.1s;
+}
+
+.mybt:hover, .mybt a:hover
+{
+    background:#f6413e; 
+    color:#fff;
+    text-decoration:none;
+}
+
+.donate
+{
+    height:40px;
+    line-height:40px;
+}
+
+.donate ul
+{
+    margin:0px;
+    padding:0px;
+}
+
+.donate ul li
+{
+    display:inline-block;
+    padding:0px 5px;
+    line-height:25px;
+    height:25px;
+}
+
+
+.donate ul li a
+{
+    color:#f6413e;
+}
+
+.donate ul li i
+{
+    font-size:16px;
+}
+
+.span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+  }
+  .hr-or {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+footer.nb-footer {
+background: #222;
+border-top: 4px solid #b78c33; }
+footer.nb-footer .about {
+margin: 0 auto;
+margin-top: 40px;
+max-width: 1170px;
+text-align: center; }
+footer.nb-footer .about p {
+font-size: 13px;
+color: #999;
+margin-top: 30px; }
+footer.nb-footer .about .social-media {
+margin-top: 15px; }
+footer.nb-footer .about .social-media ul li a {
+display: inline-block;
+width: 45px;
+height: 45px;
+line-height: 45px;
+border-radius: 50%;
+font-size: 16px;
+color: #b78c33;
+border: 1px solid rgba(255, 255, 255, 0.3); }
+footer.nb-footer .about .social-media ul li a:hover {
+background: #b78c33;
+color: #fff;
+border-color: #b78c33; }
+footer.nb-footer .footer-info-single {
+margin-top: 30px; }
+footer.nb-footer .footer-info-single .title {
+color: #aaa;
+text-transform: uppercase;
+font-size: 16px;
+border-left: 4px solid #b78c33;
+padding-left: 5px; }
+footer.nb-footer .footer-info-single ul li a {
+display: block;
+color: #aaa;
+padding: 2px 0; }
+footer.nb-footer .footer-info-single ul li a:hover {
+color: #b78c33; }
+footer.nb-footer .footer-info-single p {
+font-size: 13px;
+line-height: 20px;
+color: #aaa; }
+footer.nb-footer .copyright {
+margin-top: 15px;
+background: #111;
+padding: 7px 0;
+color: #999; }
+footer.nb-footer .copyright p {
+margin: 0;
+padding: 0; }
+
+
+
+
